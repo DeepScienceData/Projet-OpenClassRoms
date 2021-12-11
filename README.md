@@ -1,13 +1,9 @@
 # Projet : Implémentez un modèle de scoring
 
-<center><figure>
-    <table>
-        <tr><img src="./images/Logo_OpenClassrooms.jpg" width="200"
-height="200"></tr>
-        <tr><img src="./images/logo_pret_a_depenser.jpg"width="200"
-height="200" ></tr>
-    </table>
-</figure></center>
+<p float="left">
+  <img src="./images/Logo_OpenClassrooms.jpg" width="100" />
+  <img src="./images/logo_pret_a_depenser.jpg" width="100" /> 
+</p>
 
 #### Projet du parcours Data Scientist OpenClassrooms en partenariat avec Centrale Supélec.
 L’entreprise souhaite développer un **modèle de scoring de la probabilité de défaut de paiement du client** pour étayer la décision d'accorder ou non un prêt à un client potentiel en s’appuyant sur des sources de données variées (données comportementales, données provenant d'autres institutions financières, etc.).
@@ -96,7 +92,7 @@ $ git push master
 ```
 
 ### Ressources Streamlit 
-<center><img src="./images/logo-streamlit.jpg" width="84" height="84"></center>
+<center><img src="./images/logo_streamlit.jpg" width="84" height="84"></center>
 
 [Cheat Sheet…](https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py)
 
