@@ -1,8 +1,7 @@
 # Projet : Implémentez un modèle de scoring
 
 <p float="left">
-  <img src="./images/Logo_OpenClassrooms.jpg" width="300" /> 
-  <br>
+  <img src="./images/Logo_OpenClassrooms.jpg" width="300" /> <br>
   <img src="./images/logo_pret_a_depenser.jpg" width="300" /> 
 </p>
 
@@ -46,13 +45,13 @@ Anaconda est donc une distribution Python, faite pour la Data Science.
 De cette manière on peut installer Python et ses librairies de Data Science Pandas, Matplotlib, Seaborn, Scipy, Numpy etc… 
 Mais aussi le notebook Jupyter, qui reste incontournable et vivement recommandé!
 C'est par ici : 
-<center><img src="./images/anaconda-python-logo.jpg" width="184" height="84"></center>
+<center><img src="./images/anaconda-python-logo.jpg" width="1084" height="184"></center>
 
 [Anaconda](https://www.anaconda.com/download)
 
 Si vous souhaitez lancer le projet, il sera nécessaire d'installer Jupyter Notebook sur votre mahcine. 
 La doc. Jupyter est accessible via : 
-<center><img src="./images/jupyter-logo.jpg" width="184" height="84"></center>
+<center><img src="./images/jupyter-logo.jpg" width="1084" height="184"></center>
 
 [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/install.html) 
 
@@ -78,7 +77,7 @@ pip install scipy
 ```
 
 ### Git Github
-<center><img src="./images/github-logo.jpg" width="1084" height="84"></center>
+<center><img src="./images/github-logo.jpg" width="1084" height="184"></center>
 
 *Installation de Github Command Line Interface (CLI) [Github CLI](https://cli.github.com/)* 
 
@@ -93,7 +92,7 @@ $ git push master
 ```
 
 ### Ressources Streamlit 
-<center><img src="./images/logo_streamlit.jpg" width="1084" height="84"></center>
+<center><img src="./images/logo_streamlit.jpg" width="1084" height="184"></center>
 
 [Cheat Sheet…](https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py)
 
