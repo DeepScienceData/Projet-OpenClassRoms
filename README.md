@@ -1,3 +1,10 @@
+
+<head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Premiers tests du CSS</title>
+</head>
+
 # Projet : Implémentez un modèle de scoring
 
 <p float="left">
@@ -77,7 +84,7 @@ pip install scipy
 ```
 
 ### Git Github
-<center><img src="./images/github-logo.jpg" width="184" height="84"></center>
+<center><img src="./images/github-logo.jpg" width="1084" height="84"></center>
 
 *Installation de Github Command Line Interface (CLI) [Github CLI](https://cli.github.com/)* 
 
