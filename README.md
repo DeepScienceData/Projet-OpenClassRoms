@@ -3,10 +3,10 @@
 <center><figure>
     <table>
         <tr>
-        <img src="./images/Logo_OpenClassrooms.jpg" width="400"
-height="341">
-        <img src="./images/logo_pret_a_depenser.jpg"width="400"
-height="341" >
+        <img src="./images/Logo_OpenClassrooms.jpg" width="200"
+height="200">
+        <img src="./images/logo_pret_a_depenser.jpg"width="200"
+height="200" >
         </tr>
     </table
 <center><figure>
