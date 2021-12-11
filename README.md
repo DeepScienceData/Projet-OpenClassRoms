@@ -1,8 +1,8 @@
 # Projet : Implémentez un modèle de scoring
 
 <p float="left">
-  <img src="./images/Logo_OpenClassrooms.jpg" width="100" />
-  <img src="./images/logo_pret_a_depenser.jpg" width="100" /> 
+  <img src="./images/Logo_OpenClassrooms.jpg" width="300" />
+  <img src="./images/logo_pret_a_depenser.jpg" width="300" /> 
 </p>
 
 #### Projet du parcours Data Scientist OpenClassrooms en partenariat avec Centrale Supélec.
