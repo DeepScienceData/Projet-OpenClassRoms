@@ -1,8 +1,8 @@
 # Projet : Implémentez un modèle de scoring
 
 <p float="left">
-  <img src="./images/Logo_OpenClassrooms.jpg" width="300" /> <br>
-  <img src="./images/logo_pret_a_depenser.jpg" width="300" /> 
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/Logo_OpenClassrooms.jpg" width="300" height="300" />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+  <img src="./images/logo_pret_a_depenser.jpg" width="300" height="300" /> 
 </p>
 
 #### Projet du parcours Data Scientist OpenClassrooms en partenariat avec Centrale Supélec.
@@ -27,7 +27,7 @@ Pour ce projet, les données ont été manipulées en Python sur support Jupyter
 
 ### Les données :
 
-<center><img src="./images/Home_credit_logo.jpg" width="184" height="84"></center>
+<center><img src="./images/Home_credit_logo.jpg" width="1084" height="284"></center>
 
 - Données Kaggle : [Home Credit Default](https://www.kaggle.com/c/home-credit-default-risk/data)
 
@@ -45,13 +45,13 @@ Anaconda est donc une distribution Python, faite pour la Data Science.
 De cette manière on peut installer Python et ses librairies de Data Science Pandas, Matplotlib, Seaborn, Scipy, Numpy etc… 
 Mais aussi le notebook Jupyter, qui reste incontournable et vivement recommandé!
 C'est par ici : 
-<center><img src="./images/anaconda-python-logo.jpg" width="1084" height="184"></center>
+<center><img src="./images/anaconda-python-logo.jpg" width="1084" height="284"></center>
 
 [Anaconda](https://www.anaconda.com/download)
 
 Si vous souhaitez lancer le projet, il sera nécessaire d'installer Jupyter Notebook sur votre mahcine. 
 La doc. Jupyter est accessible via : 
-<center><img src="./images/jupyter-logo.jpg" width="1084" height="184"></center>
+<center><img src="./images/jupyter-logo.jpg" width="1084" height="284"></center>
 
 [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/install.html) 
 
