@@ -2,14 +2,11 @@
 
 <center><figure>
     <table>
-        <tr>
-        <img src="./images/Logo_OpenClassrooms.jpg" width="200"
-height="200">
-        <img src="./images/logo_pret_a_depenser.jpg"width="200"
-height="200" >
-        </tr>
-    </table
-<center><figure>
+        <tr><img src="./images/Logo_OpenClassrooms.jpg" width="200"
+height="200"></tr>
+        <tr><img src="./images/logo_pret_a_depenser.jpg"width="200"
+height="200" ></tr>
+    </table>
 </figure></center>
 
 #### Projet du parcours Data Scientist OpenClassrooms en partenariat avec Centrale Supélec.
