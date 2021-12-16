@@ -27,9 +27,9 @@ Dans ce projet nous devons dissocier notre prédiction de notre dashboard, et c�
 **Environnement de développement :** 
 ```
 python api/api.py
-
 ```
 **L'adresse pour faire une requette HTPP de predictions :**
+
 ```
  http://127.0.0.1:5000/credit/IDclient
 ```
