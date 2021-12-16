@@ -20,6 +20,19 @@ L'application répond au **cahier des charges** suivant :
  - Permettre de comparer les informations descriptives relatives à un client à l’ensemble des clients ou à un groupe de clients similaires.
 
 
+## API RESET  : RESET 
+
+Dans ce projet nous devons dissocier notre prédiction de notre dashboard, et c’est pourquoi nous avons crée une API FLASK, qui disponible de cette manières : 
+
+**Environnement de développement :** 
+```
+python api/api.py
+
+```
+**L'adresse pour faire une requette HTPP de predictions :**
+```
+ http://127.0.0.1:5000/credit/IDclient
+```
 
 
 ## Préambule
