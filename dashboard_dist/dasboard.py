@@ -7,6 +7,7 @@ import pickle
 import shap
 from urllib.request import urlopen
 import json
+import os
 import plotly.express as px
 from zipfile import ZipFile
 from sklearn.model_selection import GridSearchCV
@@ -217,17 +218,10 @@ def main() :
 
     #Customer solvability display
     st.header("**Customer file analysis**")
-    #Appel de l'API : 
-
-    API_url = "http://127.0.0.1:5000/credit/" + str(chk_id)
-
-    with st.spinner('Chargement du score du client...'):
-        json_url = urlopen(API_url)
-
-        API_data = json.loads(json_url.read())
-        prediction = API_data['client risk in %']
     
-    st.write("**Default risk probability : **{:.0f} %".format(round(float(prediction), 3)))
+    # Deployement prediction :
+    prediction = load_prediction(sample, chk_id, clf)
+    st.write("**Default probability : **{:.0f} %".format(round(float(prediction)*100, 2)))
 
     #Compute decision according to the best threshold 50% (it's just a guess)
     if prediction <= 50.0 :
@@ -236,6 +230,7 @@ def main() :
         decision = "<font color='red'>**LOAN REJECTED**</font>"
 
     st.write("**Decision** *(with threshold 50%)* **: **", decision, unsafe_allow_html=True)
+    
 
     st.markdown("<u>Customer Data :</u>", unsafe_allow_html=True)
     st.write(identite_client(data, chk_id))
