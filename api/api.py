@@ -55,16 +55,12 @@ def credit(id_client):
 
     score, predict = load_prediction(sample,id_client, clf)
 
-    # Output either 'the loan was repaid on time' or 'the client had payment difficulties' along with the score
-    if predict == 0:
-        pred_text = 'the loan was repaid on time'
-    else:
-        pred_text = 'the client had payment difficulties'
+    
     # round the predict proba value and set to new variable
     percent_score = score*100
     id_risk = np.round(percent_score, 3)
     # create JSON object
-    output = {'prediction': str(pred_text), 'client risk in %': float(id_risk)}
+    output = {'prediction': int(predict), 'client risk in %': float(id_risk)}
 
 
     print('Nouvelle Prédiction : \n', output)
