@@ -1,8 +1,8 @@
 # Projet : Implémentez un modèle de scoring
 
 <p float="left">
-  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./images/Logo_OpenClassrooms.jpg" width="200" height="200" />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
-  <img src="./images/logo_pret_a_depenser.jpg" width="200" height="200" /> 
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="./imagesProjet/Logo_OpenClassrooms.png" width="200" height="200" />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+  <img src="./imagesProjet/logo_pret_a_depenser.jpg" width="200" height="200" /> 
 </p>
 
 #### Projet du parcours Data Scientist OpenClassrooms en partenariat avec Centrale Supélec.
@@ -40,7 +40,7 @@ Pour ce projet, les données ont été manipulées en Python sur support Jupyter
 
 ### Les données :
 
-<center><img src="./images/Home_credit_logo.jpg" width="1084" height="284"></center>
+<center><img src="./imagesProjet/Home_credit_logo.png" width="1084" height="284"></center>
 
 - Données Kaggle : [Home Credit Default](https://www.kaggle.com/c/home-credit-default-risk/data)
 
@@ -58,13 +58,13 @@ Anaconda est donc une distribution Python, faite pour la Data Science.
 De cette manière on peut installer Python et ses librairies de Data Science Pandas, Matplotlib, Seaborn, Scipy, Numpy etc… 
 Mais aussi le notebook Jupyter, qui reste incontournable et vivement recommandé!
 C'est par ici : 
-<center><img src="./images/anaconda-python-logo.jpg" width="1084" height="284"></center>
+<center><img src="./imagesProjet/anaconda-python-logo.jpg" width="1084" height="284"></center>
 
 [Anaconda](https://www.anaconda.com/download)
 
 Si vous souhaitez lancer le projet, il sera nécessaire d'installer Jupyter Notebook sur votre mahcine. 
 La doc. Jupyter est accessible via : 
-<center><img src="./images/jupyter-logo.jpg" width="1084" height="284"></center>
+<center><img src="./imagesProjet/jupyter-logo.jpg" width="1084" height="284"></center>
 
 [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/install.html) 
 
@@ -90,7 +90,7 @@ pip install scipy
 ```
 
 ### Git Github
-<center><img src="./images/github-logo.jpg" width="1084" height="184"></center>
+<center><img src="./imagesProjet/github-logo.png" width="1084" height="184"></center>
 
 *Installation de Github Command Line Interface (CLI) [Github CLI](https://cli.github.com/)* 
 
@@ -105,12 +105,12 @@ $ git push master
 ```
 
 ### Ressources Streamlit 
-<center><img src="./images/logo_streamlit.jpg" width="1084" height="184"></center>
+<center><img src="./imagesProjet/logo_streamlit.jpg" width="1084" height="184"></center>
 
 [Cheat Sheet…](https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py)
 
 ## Vidéo du dashboard en deployment sur streamlit
-[![Video dashboard](./images/github-logo.jpg)](https://youtu.be/nD4qJBdVtJk)
+[![Video dashboard](./imagesProjet/dashboard_distant.png)](https://youtu.be/nD4qJBdVtJk)
 
 ## Vidéo du dashboard en local avec test de l'API REST
-[![Video dashboard](https://img.youtube.com/vi/X8Awv1xasEw/mqdefault.jpg)](https://www.youtube.com/watch?v=X8Awv1xasEw&feature=youtu.be)
+[![Video dashboard](./imagesProjet/dashboard_local.png)](https://youtu.be/yiPNr5Zg3p0)
