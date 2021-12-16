@@ -109,3 +109,8 @@ $ git push master
 
 [Cheat Sheet…](https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py)
 
+## Vidéo du dashboard en deployment sur streamlit
+[![Video dashboard](./images/github-logo.jpg)](https://youtu.be/nD4qJBdVtJk)
+
+## Vidéo du dashboard en local avec test de l'API REST
+[![Video dashboard](https://img.youtube.com/vi/X8Awv1xasEw/mqdefault.jpg)](https://www.youtube.com/watch?v=X8Awv1xasEw&feature=youtu.be)
