@@ -219,10 +219,6 @@ def main() :
     #Customer solvability display
     st.header("**Customer file analysis**")
     
-    # Deployement prediction  :
-    #prediction = load_prediction(sample, chk_id, clf)
-    #st.write("**Default probability : **{:.0f} %".format(round(float(prediction)*100, 2)))
-    # Local pridiction :
     
     #Appel de l'API : 
     #API_url = "http://127.0.0.1:5000/credit/" + str(chk_id) local
