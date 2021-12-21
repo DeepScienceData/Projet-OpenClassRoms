@@ -1,6 +1,7 @@
 #API FLASK run (commande : python api/api.py)
 # Local Adresse :  http://127.0.0.1:5000/credit/IDclient
 # adresse distance : https://api-prediction-credit.herokuapp.com/credit/idclient
+# Github depo : https://github.com/DeepScienceData/API-Prediction
 
 import numpy as np
 from flask import Flask, request, jsonify, render_template
