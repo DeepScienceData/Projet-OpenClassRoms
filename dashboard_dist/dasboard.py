@@ -219,9 +219,24 @@ def main() :
     #Customer solvability display
     st.header("**Customer file analysis**")
     
-    # Deployement prediction :
-    prediction = load_prediction(sample, chk_id, clf)
-    st.write("**Default probability : **{:.0f} %".format(round(float(prediction)*100, 2)))
+    # Deployement prediction  :
+    #prediction = load_prediction(sample, chk_id, clf)
+    #st.write("**Default probability : **{:.0f} %".format(round(float(prediction)*100, 2)))
+    # Local pridiction :
+    
+    #Appel de l'API : 
+    #API_url = "http://127.0.0.1:5000/credit/" + str(chk_id) local
+    API_url = "https://api-prediction-credit.herokuapp.com/credit/" + str(chk_id)
+
+    with st.spinner('Chargement du score du client...'):
+        json_url = urlopen(API_url)
+
+        API_data = json.loads(json_url.read())
+        prediction = API_data['client risk in %']
+    
+    st.write("**Default risk probability : **{:.0f} %".format(round(float(prediction), 3)))
+    
+
 
     #Compute decision according to the best threshold 50% (it's just a guess)
     if prediction <= 50.0 :
